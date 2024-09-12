@@ -18,7 +18,7 @@ podman build . -t fedora-llama-vulkan
 
 ## Run llama.cpp container
 
-Please download a model file you like (for example `Llama-3-ELYZA-JP-8B-q4_k_m.gguf`) and place it in $HOME/Downloads beforehand.
+Please download a model file you like (for example `Llama-3-ELYZA-JP-8B-q4_k_m.gguf`) and place it in `$HOME/Downloads` beforehand.
 
 ```sh
 make run
